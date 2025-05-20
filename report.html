@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Regression Test Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .comparison {
+            margin-bottom: 40px;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .comparison h2 {
+            margin-top: 0;
+        }
+        .images {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .image-container {
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #eee;
+        }
+        .image-container h3 {
+            margin: 10px 0;
+        }
+        .stats {
+            margin-top: 10px;
+            background: #f9f9f9;
+            padding: 10px;
+            border-radius: 6px;
+            font-size: 0.95em;
+        }
+        .stats .diff {
+            color: #b30000;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Visual Regression Test Report</h1>
+    
+    
+    <div class="comparison">
+        <h2>example_com_.png</h2>
+        <div class="images">
+            <div class="image-container">
+                <h3>Baseline</h3>
+                <img src="screenshots/baseline/example_com_.png" alt="Baseline">
+            </div>
+            <div class="image-container">
+                <h3>Current</h3>
+                <img src="screenshots/current/example_com_.png" alt="Current">
+            </div>
+            <div class="image-container">
+                <h3>Diff</h3>
+                <img src="screenshots/diff/example_com_.png" alt="Diff">
+            </div>
+        </div>
+        <div class="stats">
+          
+            <span class="diff">0 pixels different</span> out of 921600 total pixels
+            (<span class="diff">0.00%</span> difference)
+          
+        </div>
+    </div>
+      
+    <div class="comparison">
+        <h2>github_com_.png</h2>
+        <div class="images">
+            <div class="image-container">
+                <h3>Baseline</h3>
+                <img src="screenshots/baseline/github_com_.png" alt="Baseline">
+            </div>
+            <div class="image-container">
+                <h3>Current</h3>
+                <img src="screenshots/current/github_com_.png" alt="Current">
+            </div>
+            <div class="image-container">
+                <h3>Diff</h3>
+                <img src="screenshots/diff/github_com_.png" alt="Diff">
+            </div>
+        </div>
+        <div class="stats">
+          
+            <span class="diff">20862 pixels different</span> out of 14315520 total pixels
+            (<span class="diff">0.15%</span> difference)
+          
+        </div>
+    </div>
+      
+    <div class="comparison">
+        <h2>www_npmjs_com_.png</h2>
+        <div class="images">
+            <div class="image-container">
+                <h3>Baseline</h3>
+                <img src="screenshots/baseline/www_npmjs_com_.png" alt="Baseline">
+            </div>
+            <div class="image-container">
+                <h3>Current</h3>
+                <img src="screenshots/current/www_npmjs_com_.png" alt="Current">
+            </div>
+            <div class="image-container">
+                <h3>Diff</h3>
+                <img src="screenshots/diff/www_npmjs_com_.png" alt="Diff">
+            </div>
+        </div>
+        <div class="stats">
+          
+            <span class="diff">0 pixels different</span> out of 2560000 total pixels
+            (<span class="diff">0.00%</span> difference)
+          
+        </div>
+    </div>
+      
+</body>
+</html>
+  

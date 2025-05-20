@@ -1,0 +1,20 @@
+[
+  {
+    "filename": "example_com_.png",
+    "diffPixels": 0,
+    "totalPixels": 921600,
+    "diffPercentage": 0
+  },
+  {
+    "filename": "github_com_.png",
+    "diffPixels": 20862,
+    "totalPixels": 14315520,
+    "diffPercentage": 0.14572994903433478
+  },
+  {
+    "filename": "www_npmjs_com_.png",
+    "diffPixels": 0,
+    "totalPixels": 2560000,
+    "diffPercentage": 0
+  }
+]
